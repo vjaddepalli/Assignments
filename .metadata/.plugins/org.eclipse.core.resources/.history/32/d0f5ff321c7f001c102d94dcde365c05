@@ -1,0 +1,20 @@
+package com.zensar.training.bean;
+
+public class Bank {
+	
+	private int cash;
+
+	public Bank() {
+		super();
+	}
+
+	public Bank(int cash) {
+		super();
+		this.cash = cash;
+	}
+	
+	
+	
+	
+
+}

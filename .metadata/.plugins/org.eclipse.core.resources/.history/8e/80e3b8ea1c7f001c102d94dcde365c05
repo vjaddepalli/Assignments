@@ -1,0 +1,15 @@
+package com.zensar.training.bean;
+
+public class SavingAccount implements Account {
+
+	private double fixedDeposits;
+	
+	@Override
+	public double computeTotalCash() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}

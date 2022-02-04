@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.Employee"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool.ManagedBlocker"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.Manager"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.Labour"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.Queue"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.Date"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.ComplexNumbers"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.Account"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.CurrentAccount"/>
+    <fullyQualifiedTypeName name="com.zensar.training.bean.Bank"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,14 @@
+package com.zensar.training.bean;
+
+public class Manager extends Employee{
+	
+	private double incentive;
+	
+	
+	
+	@Override
+	public double totalSalary() {
+		return salary+incentive;
+	}
+
+}

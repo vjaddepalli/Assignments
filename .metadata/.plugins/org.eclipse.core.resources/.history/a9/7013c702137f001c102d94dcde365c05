@@ -1,0 +1,19 @@
+package com.zensar.training.bean;
+
+public class Queue {
+	
+	
+	private int arr[];
+	int front,rear;
+	
+	Queue(int size){
+		front=-1;
+		rear=-1;
+		this.arr=new int[size];
+	}
+	
+	public void push(int n) {
+		
+	}
+
+}

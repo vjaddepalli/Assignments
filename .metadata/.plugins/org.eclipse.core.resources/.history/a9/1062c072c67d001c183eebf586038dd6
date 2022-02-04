@@ -1,0 +1,12 @@
+package com.zensar.training.bean;
+
+public class Employee {
+	
+	public double salary;
+	
+	
+	public double computeTotalSalary() {
+		return salary;
+	}
+
+}

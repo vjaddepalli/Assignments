@@ -1,0 +1,12 @@
+package com.zensar.training.bean;
+
+public class Labour  extends Employee{
+	
+	private double overtimeHrs;
+	
+	@Override
+	public double totalSalary() {
+		return salary+overtime;
+	}
+
+}

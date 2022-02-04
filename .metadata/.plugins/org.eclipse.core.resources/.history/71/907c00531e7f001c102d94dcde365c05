@@ -1,0 +1,16 @@
+package com.zensar.training.bean;
+
+public class Bank {
+	
+	
+	SavingAccount savAcc=new SavingAccount();
+	CurrentAccount curAcc=new CurrentAccount();
+	
+	public double getTotalCash() {
+		
+		return savAcc.computeTotalCash()+curAcc.computeTotalCash();
+	}
+	
+	
+
+}

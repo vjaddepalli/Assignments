@@ -1,0 +1,31 @@
+package com.zensar.training.ui;
+
+import com.zensar.training.bean.Employee;
+import com.zensar.training.bean.Labour;
+import com.zensar.training.bean.Manager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Employee e1 = new Employee();
+		e1.name="Vijay";
+		e1.salary=30000.00;
+		
+		System.out.println(e1.totalSalary());
+		
+		Manager m = new Manager();
+		m.name="Guru";
+		m.salary=75000.00;
+		m.incentive=5000.00;
+		System.out.println(m.totalSalary());
+		
+		Labour l=new Labour();
+		l.name="abc";
+		l.salary=1000.00;
+		l.overtime=200.00;
+		System.out.println(l.totalSalary());
+
+	}
+
+}

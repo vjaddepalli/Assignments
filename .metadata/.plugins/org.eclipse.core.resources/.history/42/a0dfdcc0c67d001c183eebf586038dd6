@@ -1,0 +1,38 @@
+package com.zensar.training.bean;
+
+public class Manager extends Employee{
+	
+	private double incentive;	
+	
+	public Manager() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+
+
+
+
+
+
+	public Manager(double salary,double incentive) {
+		super(salary);
+		this.incentive = incentive;
+	}
+
+
+
+
+
+
+
+
+
+	@Override
+	public double totalSalary() {
+		return salary+incentive;
+	}
+
+}
